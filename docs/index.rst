@@ -30,7 +30,7 @@ version, and underlying operating system are configured properly.
 Secondly, Twine encourages you to build your distribution files. ``python
 setup.py upload`` only allows you to upload a package as a final step after
 building with ``distutils`` or ``setuptools``, within the same command
-invocation. This means that you cannot test the exact file you're going to
+invocation. This means that you can test the exact file you're going to
 upload to PyPI to ensure that it works before uploading it.
 
 Finally, Twine allows you to pre-sign your files and pass the
